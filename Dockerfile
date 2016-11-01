@@ -1,4 +1,4 @@
-FROM redis:3.2
+FROM redis:3
 MAINTAINER xuxiang <downloadxu@163.com>
 COPY Shanghai /etc/localtime
 COPY redis.conf /data/redis.conf
